@@ -38,7 +38,7 @@ hyp = {'giou': 3.54,  # giou loss gain
        'translate': 0.05 * 0,  # image translation (+/- fraction)
        'scale': 0.05 * 0,  # image scale (+/- gain)
        'shear': 0.641 * 0,
-       'overlap': 0.1,  # overlap threshold
+       'overlap': 0.5,  # overlap threshold
        'neg_pos': 3 # 正负例比例
        }
 
